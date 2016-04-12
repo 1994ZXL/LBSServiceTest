@@ -1,0 +1,7 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+</FrameLayout>
+<!-- From: file:/C:/Users/ZXL/Documents/GitHub/LBSService/app/src/main/res/layout/activity_main.xml -->

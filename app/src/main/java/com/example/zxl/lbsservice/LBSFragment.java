@@ -1,14 +1,11 @@
 package com.example.zxl.lbsservice;
 
 import android.app.Fragment;
-import android.app.ListFragment;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -17,8 +14,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
@@ -63,19 +60,52 @@ public class LBSFragment extends Fragment {
         toolbar = (Toolbar)v.findViewById(R.id.tl_custom);
         mDrawerLayout = (DrawerLayout)v.findViewById(R.id.dl_left);
         listView = (ListView)v.findViewById(R.id.lv_left_menu);
-        toolbar.setTitle("个人");//设置Toolbar标题
-        toolbar.setTitleTextColor(Color.parseColor("#ffffff"));//设置标题颜色
-        toolbar.setOnClickListener(new View.OnClickListener() {
+        toolbar.setBackgroundColor(Color.parseColor("#ffffff"));
+        TextView textView1 = (TextView)v.findViewById(R.id.toolbar_personal);
+        TextView textView2 = (TextView)v.findViewById(R.id.toolbar_mission);
+        textView1.setClickable(true);
+        textView2.setClickable(true);
+        textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mDrawerLayout.openDrawer(Gravity.LEFT);
             }
         });
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MissionActivity.class);
+                startActivity(intent);
+            }
+        });
+        //MyAdapter myAdapter = new MyAdapter(str);
         arrayAdapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_list_item_1, str);
         listView.setAdapter(arrayAdapter);
-        arrayAdapter.notifyDataSetChanged();
         return v;
     }
+    /*
+    private class MyAdapter extends ArrayAdapter<String>{
+
+        public MyAdapter(String[] str){
+            super(getActivity(), 0, str);
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            if ( null == convertView ) {
+                convertView = getActivity().getLayoutInflater().inflate(R.layout.personal_fragment, null);
+            }
+
+            ImageView imageView = (ImageView) convertView.findViewById(R.id.personal_imageview);
+            TextView textView = (TextView) convertView.findViewById(R.id.personal_textview);
+
+            textView.setTextSize(16);
+            textView.setTextColor(getResources().getColor(R.color.material_blue_grey_800));
+
+            return convertView;
+        }
+    }
+    */
     @Override
     public void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);

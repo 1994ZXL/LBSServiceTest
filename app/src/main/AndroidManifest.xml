@@ -23,6 +23,17 @@
             android:value="iWbHzXvgkOGtkHoyRLFUBVWEgdDGG0E9"/>
 
         <activity
+            android:name=".MissionActivity"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".MissionDetailsCardActivity"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
             android:name=".LBSActivity"
             android:label="@string/app_name" >
             <intent-filter>
