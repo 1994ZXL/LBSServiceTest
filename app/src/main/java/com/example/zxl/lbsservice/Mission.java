@@ -6,19 +6,19 @@ import java.util.UUID;
  * Created by ZXL on 2016/4/5.
  */
 public class Mission {
-    private UUID id;
+    private String id;
     private String content;
     private boolean solved;
 
     public Mission() {
-        id = UUID.randomUUID();
+
     }
 
-    public UUID getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(String id) {
         this.id = id;
     }
 

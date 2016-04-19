@@ -15,8 +15,17 @@ public class MissionDetailsCardFragment extends Fragment{
     private CardView mCardView2;
     private CardView mCardView3;
     private CardView mCardView4;
+    private String mId;
 
+    public static MissionDetailsCardFragment newInstance(String id){
+        MissionDetailsCardFragment result = new MissionDetailsCardFragment();
+        result.setId(id);
+        return result;
+    }
 
+    public void setId(String id) {
+        mId = id;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle saveInstanceState) {

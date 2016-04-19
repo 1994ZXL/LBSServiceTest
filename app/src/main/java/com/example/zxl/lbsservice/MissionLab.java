@@ -17,6 +17,7 @@ public class MissionLab {
         mMissions = new ArrayList<Mission>();
         for (int i = 0; i < 100; i++) {
             Mission m = new Mission();
+            m.setId("编号：" + i);
             m.setContent("Mission #" + i);
             m.setSolved(i % 2 == 0);
             mMissions.add(m);

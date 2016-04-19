@@ -20,7 +20,7 @@ public class MissionActivity  extends Activity{
         fragment = fm.findFragmentById(R.id.fragmentContainer);
 
         if (null == fragment) {
-            fragment = new MissionFragment();
+            fragment = new MissionRecyclerView();
             fm.beginTransaction().add(R.id.fragmentContainer, fragment).commit();
         }
     }

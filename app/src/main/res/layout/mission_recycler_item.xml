@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/white"
+    android:layout_height="wrap_content" >
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mission_list_item_checkbox"
+        android:layout_gravity="left"
+        android:enabled="false"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:checked="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mission_list_item_id"
+        android:layout_toRightOf="@+id/mission_list_item_checkbox"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+        android:text="Mission_id"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mission_list_item_content"
+        android:layout_toRightOf="@+id/mission_list_item_id"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+        android:text="Mission_content"
+        android:clickable="true"/>
+
+</FrameLayout>
