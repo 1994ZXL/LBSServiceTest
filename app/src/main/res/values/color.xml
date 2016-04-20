@@ -2,4 +2,6 @@
 <resources>
     <drawable name="blue">#3399ff</drawable>
     <drawable name="white">#fff</drawable>
+    <drawable name="gray">#F7F7F7</drawable>
+    <drawable name="black">#5C5C5C</drawable>
 </resources>

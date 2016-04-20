@@ -85,6 +85,7 @@ public class MissionRecyclerView extends Fragment {
 //                    MissionDetailsCardFragment missionDetailsCardFragment = MissionDetailsCardFragment.newInstance(m.getId());
                     MissionDetailsCardFragment missionDetailsCardFragment = new MissionDetailsCardFragment();
                     FragmentManager fragmentManager = getActivity().getFragmentManager();
+                    fragmentManager.beginTransaction().addToBackStack(null);
                     fragmentManager.beginTransaction().replace(R.id.fragmentContainer, missionDetailsCardFragment).commit();
                 }
             });

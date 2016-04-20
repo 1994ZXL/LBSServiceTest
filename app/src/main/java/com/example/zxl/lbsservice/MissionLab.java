@@ -19,7 +19,7 @@ public class MissionLab {
             Mission m = new Mission();
             m.setId("编号：" + i);
             m.setContent("Mission #" + i);
-            m.setSolved(i % 2 == 0);
+            m.setSolved(true);
             mMissions.add(m);
         }
     }

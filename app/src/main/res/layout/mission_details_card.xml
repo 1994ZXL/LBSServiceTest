@@ -4,20 +4,47 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="8dp"
-    android:paddingLeft="8dp"
-    android:paddingRight="8dp"
-    android:paddingTop="8dp"
     android:background="@drawable/white">
 
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/missoin_details_card_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray"
+        android:minHeight="?attr/actionBarSize"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/mission_details_card_tooltitle"
+            android:text="任务详情"
+            android:textColor="@drawable/black"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="left"
+            android:src="@drawable/backbutton"
+            android:clickable="true"
+            android:id="@+id/mission_details_card_backimage"/>
+
+    </android.support.v7.widget.Toolbar>
 
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/mission_details_cardview1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="#3399ff"
-        card_view:cardCornerRadius="4dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardCornerRadius="2dp"
         card_view:cardPreventCornerOverlap="true"
         card_view:cardUseCompatPadding="true"
         card_view:contentPadding="10dp">
@@ -31,19 +58,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/mission_details_card_title"
-                android:text="四川大学锦城学院"/>
+                android:text="四川大学锦城学院"
+                android:textColor="@drawable/blue"
+                android:textSize="30dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/mission_details_card_id"
-                android:text="编号：001"/>
+                android:text="编号：001"
+                android:textColor="@drawable/blue"
+                android:textSize="20dp"
+                android:layout_marginTop="40dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/mission_details_card_content"
-                android:text="巡查收音机是否完好"/>
+                android:text="巡查收音机是否完好"
+                android:textColor="@drawable/blue"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"/>
 
         </LinearLayout>
 
@@ -53,9 +88,11 @@
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/mission_details_cardview2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="#3399ff"
-        card_view:cardCornerRadius="4dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardCornerRadius="2dp"
         card_view:cardPreventCornerOverlap="true"
         card_view:cardUseCompatPadding="true"
         card_view:contentPadding="10dp">
@@ -73,7 +110,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:id="@+id/mission_details_card_imagetext"
-                    android:text="图片"/>
+                    android:text="图片"
+                    android:textColor="@drawable/blue"
+                    android:textSize="20dp"/>
 
                 <ImageView
                     android:layout_width="26dp"
@@ -93,8 +132,10 @@
         android:id="@+id/mission_details_cardview3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="#3399ff"
-        card_view:cardCornerRadius="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardCornerRadius="2dp"
         card_view:cardPreventCornerOverlap="true"
         card_view:cardUseCompatPadding="true"
         card_view:contentPadding="10dp">
@@ -112,8 +153,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/mission_details_card_mission"
                     android:layout_gravity="left"
-                    android:background="@drawable/blue"
-                    android:text="任务报告"/>
+                    android:text="任务报告"
+                    android:textColor="@drawable/blue"/>
                 <ImageView
                     android:layout_width="26dp"
                     android:layout_height="26dp"
@@ -138,8 +179,10 @@
         android:id="@+id/mission_details_cardview4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         card_view:cardBackgroundColor="#3399ff"
-        card_view:cardCornerRadius="4dp"
+        card_view:cardCornerRadius="2dp"
         card_view:cardPreventCornerOverlap="true"
         card_view:cardUseCompatPadding="true"
         card_view:contentPadding="10dp">
@@ -148,9 +191,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/mission_details_card_button"
-                android:background="@drawable/blue"
                 android:layout_gravity="center"
-                android:text="任务提交"/>
+                android:text="任务提交"
+                android:textColor="@drawable/white"/>
 
     </android.support.v7.widget.CardView>
 

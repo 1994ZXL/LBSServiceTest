@@ -198,7 +198,9 @@
     <dimen name="notification_subtext_size">12dp</dimen>
     <!-- From: file:/C:/Users/ZXL/Documents/GitHub/LBSService/app/src/main/res/values/color.xml -->
     <eat-comment/>
+    <drawable name="black">#5C5C5C</drawable>
     <drawable name="blue">#3399ff</drawable>
+    <drawable name="gray">#F7F7F7</drawable>
     <!-- From: file:/C:/Users/ZXL/Documents/GitHub/LBSService/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
