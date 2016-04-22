@@ -2,6 +2,7 @@ package com.example.zxl.lbsservice;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.app.ListFragment;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -83,10 +84,16 @@ public class MissionRecyclerView extends Fragment {
                 @Override
                 public void onClick(View v) {
 //                    MissionDetailsCardFragment missionDetailsCardFragment = MissionDetailsCardFragment.newInstance(m.getId());
-                    MissionDetailsCardFragment missionDetailsCardFragment = new MissionDetailsCardFragment();
-                    FragmentManager fragmentManager = getActivity().getFragmentManager();
-                    fragmentManager.beginTransaction().addToBackStack(null);
-                    fragmentManager.beginTransaction().replace(R.id.fragmentContainer, missionDetailsCardFragment).commit();
+//                    MissionDetailsCardFragment missionDetailsCardFragment = new MissionDetailsCardFragment();
+//                    FragmentManager fragmentManager = getActivity().getFragmentManager();
+//                    fragmentManager.beginTransaction().addToBackStack(null);
+//                    fragmentManager.beginTransaction().replace(R.id.fragmentContainer, missionDetailsCardFragment).commit();
+
+                    Fragment fragment = new MissionDetailsCardFragment();
+                    FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                    transaction.replace(R.id.fragmentContainer, fragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
                 }
             });
 

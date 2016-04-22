@@ -2,102 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_util_v3_7_3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\classes-8007a872ff1dcead539c15e7a78ac90a0f6dbb93.jar" />
+        sha1="77f23565c6bc14129d2ec152c809161343cdeaad">
+        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_util_v3_7_3-116e000331747f8ad1d56ebfbc894036a5a69be2.jar" />
     </item>
     <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_util_v3_7_0.jar"
+        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_search_v3_7_3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="72003ec5efa50c2e02266e1ad7ebefaca7d017d6">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_util_v3_7_0-32b0751e47f9cc7663456db87f06d6ba08eda88f.jar" />
+        sha1="dea8cea1cf2639d2a92718333f47f5a7bef25b17">
+        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_search_v3_7_3-b2ad8a16f7fd0d273021656818c47fe29a062f45.jar" />
     </item>
     <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_search_v3_7_0.jar"
+        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_radar_v3_7_3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="934d5f6ca26f082fbe8bf17767caa530e37d1dfa">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_search_v3_7_0-77eb57d63e415df8bace02cdd5aea195e5ccdb52.jar" />
+        sha1="285cb61966027336b8cc418a6a3ec159039aa0c2">
+        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_radar_v3_7_3-a285a6c392e7de9e5cb15649b7ae4185f9cd48c1.jar" />
     </item>
     <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_map_v3_7_3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\classes-55796aeb693b6a514086a2e3aef5d10787b29cb6.jar" />
+        sha1="b18498f0ff59163574118729da41b7e89971d713">
+        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_map_v3_7_3-7b0484ac286ec54157571a32dfbeba9af7be463b.jar" />
     </item>
     <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_cloud_v3_7_3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-15bd9b839fc0492ab187ed18c567f4ce5ee63b6c.jar" />
+        sha1="1bfd60b172276bd6c127e1b020578ba8943cb817">
+        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_cloud_v3_7_3-4e4b69410345f0146338e626c6e86e71c995a4ab.jar" />
     </item>
     <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_base_v3_7_0.jar"
+        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_base_v3_7_3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="18e10945278df7f556e2e336a826b0db965dce51">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_base_v3_7_0-6780333a34aab5f47e9765ee8ba60bea6acfd223.jar" />
-    </item>
-    <item
-        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-0bb0540704196004630adfc9c9016d3bfb057bf3.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_map_v3_7_0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="534f8d224f352bba70229230b79028cab1e7859c">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_map_v3_7_0-60050ef8f93bf661100bcb40e8204e10ced391c4.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_cloud_v3_7_0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6d11ba6426881d142f67c539d8a13d19446ac895">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_cloud_v3_7_0-24eed3c1d874d7052dfe10610578d26f882c6417.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\baidumapapi_radar_v3_7_0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="15ca4625795ed40520a94e7ef1aa53791f9e17fe">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_radar_v3_7_0-ed618a7f8a43ae75597926d183fafe85023af65d.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\libs\locSDK_6.13.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\locSDK_6.13-7e89c1bf226b53d0bc9306b2ff2935bf8a29ed18.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\classes-bb5dc08597376d745a80ac34519934358e90fee3.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1e47268e271ff279aca3dfdd62587b8c90b6da14">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\classes-d42de53bc8db0a064baf47ddda1297ee3a4e14ac.jar" />
-    </item>
-    <item
-        jar="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\classes-256d51b8b1727e77bd1c259014932f9f3f731b07.jar" />
+        sha1="26aec1b74c9e42fb4f27432b79cf9e65365f5612">
+        <dex dex="C:\Users\ZXL\Documents\GitHub\LBSService\app\build\intermediates\pre-dexed\debug\baidumapapi_base_v3_7_3-83dfcf6d76ad1c30c5f4fb5ae7bb9200923a248e.jar" />
     </item>
 
 </items>

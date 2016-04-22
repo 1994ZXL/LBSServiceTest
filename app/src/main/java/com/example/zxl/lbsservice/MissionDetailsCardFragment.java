@@ -53,10 +53,12 @@ public class MissionDetailsCardFragment extends Fragment{
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "返回按钮被点击");
-                MissionRecyclerView missionRecyclerView = new MissionRecyclerView();
-                FragmentManager fragmentManager = getActivity().getFragmentManager();
-                fragmentManager.beginTransaction().addToBackStack(null);
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainer, missionRecyclerView).commit();
+//                MissionRecyclerView missionRecyclerView = new MissionRecyclerView();
+//                FragmentManager fragmentManager = getActivity().getFragmentManager();
+//                fragmentManager.beginTransaction().addToBackStack(null);
+//                fragmentManager.beginTransaction().replace(R.id.fragmentContainer, missionRecyclerView).commit();
+                FragmentManager fm = getFragmentManager();
+                fm.popBackStack();
             }
         });
 
