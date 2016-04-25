@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="Location" />
+        <option name="name" value="Location" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Location" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab74c790-92bb-4a79-a4c0-de23f3f3f40d" name="Default" comment="" />
@@ -40,35 +53,41 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionRecyclerView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2916#3388#0" expanded="true" />
+                <element signature="e#3387#3388#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissionDetailsCardFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MissionDetailsCardFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionDetailsCardFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70353985">
-              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1863#2478#0" expanded="true" />
-                <element signature="e#2477#2478#0" expanded="true" />
+                <element signature="e#1863#2112#0" expanded="true" />
+                <element signature="e#2111#2112#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LBSFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LBSFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/LBSFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="155" column="49" selection-start-line="155" selection-start-column="49" selection-end-line="155" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.33">
+              <caret line="152" column="46" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2948#3120#0" expanded="true" />
+                <element signature="e#3119#3120#0" expanded="true" />
+                <element signature="e#3160#3397#0" expanded="true" />
+                <element signature="e#3396#3397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,11 +118,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-              <folding>
-                <element signature="e#2489#2507#0" expanded="true" />
-                <element signature="e#2618#2636#0" expanded="true" />
-                <element signature="e#2744#2762#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,13 +135,6 @@
       </file>
       <file leaf-file-name="add.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/add.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icon_marka.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_marka.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -1636,9 +1644,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/mission_details_card.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/LBSFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionRecyclerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionDetailsCardFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionRecyclerView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/LBSFragment.java" />
       </list>
     </option>
   </component>
@@ -1674,7 +1682,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1685,6 +1692,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LBSService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LBSService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1727,20 +1766,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="lbsservice" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LBSService" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1864,6 +1889,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1874,7 +1900,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="BH90345Q4C" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="a" />
     <property name="last_opened_file_path" value="D:/AS Project/baidumap sdk/BaiduLBS_AndroidSDK_Sample/BaiduMap_AndroidSDK_v3.7.3_Sample/BaiduMapsApiASDemo" />
     <property name="OverrideImplement.combined" value="true" />
@@ -2090,7 +2116,6 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2099,9 +2124,9 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46496108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3003337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2110,8 +2135,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2129,28 +2155,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_toolbar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/LBSFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2948#3120#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3160#3397#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2177,7 +2196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2220,6 +2238,10 @@
           <caret line="7" column="40" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2948#3120#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3160#3397#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2246,7 +2268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2289,6 +2310,10 @@
           <caret line="7" column="40" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2948#3120#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3160#3397#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2315,7 +2340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2358,6 +2382,10 @@
           <caret line="7" column="40" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2948#3120#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3160#3397#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2391,7 +2419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2475,9 +2502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="216" column="68" selection-start-line="216" selection-start-column="68" selection-end-line="216" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2496,7 +2520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2504,7 +2527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2554,11 +2576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="e#2489#2507#0" expanded="true" />
-            <element signature="e#2618#2636#0" expanded="true" />
-            <element signature="e#2744#2762#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2578,12 +2596,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/LBSFragment.java">
+    <entry file="jar://$PROJECT_DIR$/app/libs/locSDK_6.13.jar!/com/baidu/location/BDLocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17102137">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionDetailsCardFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="155" column="49" selection-start-line="155" selection-start-column="49" selection-end-line="155" selection-end-column="49" />
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1863#2112#0" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2591,21 +2618,25 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionRecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2916#3388#0" expanded="true" />
+            <element signature="e#3387#3388#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/MissionDetailsCardFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/zxl/lbsservice/LBSFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70353985">
-          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.33">
+          <caret line="152" column="46" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1863#2478#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2948#3120#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3160#3397#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
           </folding>
         </state>
       </provider>

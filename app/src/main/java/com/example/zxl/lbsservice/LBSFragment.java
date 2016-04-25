@@ -26,8 +26,11 @@ import com.baidu.location.Poi;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
+import com.baidu.mapapi.map.MapStatus;
+import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MarkerOptions;
+import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.model.LatLng;
 
@@ -46,7 +49,7 @@ public class LBSFragment extends Fragment {
 
     private LocationClient mLocationClient = null;
     private BDLocationListener myListener = new MyLocationListener();
-
+    boolean isFirstLoc = true; // 是否首次定位
 
     MapView mMapView = null;
     BaiduMap mBaiduMap = null;
@@ -63,12 +66,9 @@ public class LBSFragment extends Fragment {
         mMapView = (MapView)v.findViewById(R.id.bmapView);
         mBaiduMap = mMapView.getMap();
         mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL);
-        LatLng point = new LatLng(39.963175, 116.400244);
-        BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
-        OverlayOptions option = new MarkerOptions()
-                .position(point)
-                .icon(bitmap);
-        mBaiduMap.addOverlay(option);
+
+        initLocation();
+        mLocationClient.start();
 
         toolbar = (Toolbar)v.findViewById(R.id.tl_custom);
         mDrawerLayout = (DrawerLayout)v.findViewById(R.id.dl_left);
@@ -91,12 +91,8 @@ public class LBSFragment extends Fragment {
                 startActivity(intent);
             }
         });
-        //MyAdapter myAdapter = new MyAdapter(str);
         arrayAdapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_list_item_1, str);
         listView.setAdapter(arrayAdapter);
-
-        initLocation();
-        mLocationClient.start();
 
         return v;
     }
@@ -105,6 +101,16 @@ public class LBSFragment extends Fragment {
     public void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
         setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        //退出时销毁定位
+        //关闭定位图层
+        mBaiduMap.setMyLocationEnabled(false);
+        mMapView.onDestroy();
+        mMapView = null;
     }
 
     @Override
@@ -126,6 +132,30 @@ public class LBSFragment extends Fragment {
         @Override
         public void onReceiveLocation(BDLocation location) {
             //Receive Location
+            if (location == null || mMapView == null) {
+                return;
+            }
+            MyLocationData locData = new MyLocationData.Builder()
+                    .accuracy(location.getRadius())
+                    .direction(100)
+                    .latitude(location.getLatitude())
+                    .longitude(location.getLongitude())
+                    .build();
+            mBaiduMap.setMyLocationData(locData);
+            if (isFirstLoc) {
+                isFirstLoc = false;
+                LatLng ll = new LatLng(location.getLatitude(),
+                        location.getLongitude());
+                BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
+                OverlayOptions options = new MarkerOptions()
+                        .position(ll)
+                        .icon(bitmap);
+                mBaiduMap.addOverlay(options);
+                MapStatus.Builder builder = new MapStatus.Builder();
+                builder.target(ll).zoom(18.0f);
+                mBaiduMap.animateMapStatus(MapStatusUpdateFactory.newMapStatus(builder.build()));
+            }
+
             StringBuffer sb = new StringBuffer(256);
             sb.append("time : ");
             sb.append(location.getTime());
@@ -190,8 +220,7 @@ public class LBSFragment extends Fragment {
 
     private void initLocation(){
         LocationClientOption option = new LocationClientOption();
-        option.setLocationMode(LocationClientOption.LocationMode.Hight_Accuracy
-        );//可选，默认高精度，设置定位模式，高精度，低功耗，仅设备
+        option.setLocationMode(LocationClientOption.LocationMode.Hight_Accuracy);//可选，默认高精度，设置定位模式，高精度，低功耗，仅设备
         option.setCoorType("bd09ll");//可选，默认gcj02，设置返回的定位结果坐标系
         int span=10000;
         option.setScanSpan(span);//可选，默认0，即仅定位一次，设置发起定位请求的间隔需要大于等于1000ms才是有效的

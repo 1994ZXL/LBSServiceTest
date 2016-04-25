@@ -83,12 +83,6 @@ public class MissionRecyclerView extends Fragment {
             contentTextView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-//                    MissionDetailsCardFragment missionDetailsCardFragment = MissionDetailsCardFragment.newInstance(m.getId());
-//                    MissionDetailsCardFragment missionDetailsCardFragment = new MissionDetailsCardFragment();
-//                    FragmentManager fragmentManager = getActivity().getFragmentManager();
-//                    fragmentManager.beginTransaction().addToBackStack(null);
-//                    fragmentManager.beginTransaction().replace(R.id.fragmentContainer, missionDetailsCardFragment).commit();
-
                     Fragment fragment = new MissionDetailsCardFragment();
                     FragmentTransaction transaction = getFragmentManager().beginTransaction();
                     transaction.replace(R.id.fragmentContainer, fragment);
